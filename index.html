@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>One World One Technology</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()">
+            </i>
+                <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="waste%20management.html">WASTE MANAGEMENT</a></li>
+            <li><a href="E-waste.html">E-WASTE</a></li>
+            <li><a href="Plastic%20waste.html">PLASTIC WASTE</a></li>
+            <li><a href="Organic%20waste.html">ORGANIC WASTE</a></li>
+            <li><a href="Paper%20waste.html">PAPER WASTE</a></li>
+            <li><a href="Glass%20Waste.html">GLASS WASTE</a></li>
+            <li><a href="Metal%20Waste.html">METAL WASTE</a></li> <li><a href="Contact%20us.html">CONTACT US</a></li>
+        </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1> Contribute and save the planet!</h1>
+    <p> <!-----about us-----></p>
+    <a href="" class="hero-btn">Visitors to know more</a>
+</div>
+        
+</section>
+    
+<!-----Waste Management----->
+<section class="wm">
+    <h1> Waste Management</h1>
+        <p>In the simplest terms, waste management can be defined as <br> the collection, transportation, and disposal of garbage, sewage, and other waste products. </p>
+        
+        <div class="row2"> 
+                <div class="wastemanagement-col">
+             <h3>Benifits</h3>
+                <p>There are multiple benefits to treating and managing waste. Let's take a closer look at them.</p>
+                </div>
+                <div class="wastemanagement-col">
+             <h3> Various Methods for waste disposal </h3>
+                <p>Although there are many methods of disposing of waste, let’s take a look at some of the most commonly used methods that you should know about waste management.</p>
+                </div>
+            <div class="wastemanagement-col">
+             <h3> Types of waste</h3>
+                <p>There are 6 types of waste. And the amazing fact is that we have different coloured dustbins to throw this waste. Let’s learn about these waste.</p>
+                </div>
+        </div>
+</section>
+    <!-----Our Help Make a difference----->
+<section class="makeadifference">
+    <h1> Our Help Make Difference</h1>
+    <p>By managing waste, you are also making a difference to the society and the world in general. While none of us can completely get rid of garbage, we can always adopt eco-friendly practices of reducing and reusing waste. This way, you create an example for the people around you, who in turn are now motivated to embrace a sustainable approach.</p>
+</section>
+    <!-----Footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Help us to save our environment as, <br>
+        "Nature is not asking us to protect her for her, she is asking us to protect her for our future generations."</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>        
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Gauri Chaurasia </p>
+</section>    
+<!-----JavaScript for toggle menu----->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+         function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</HTML>
